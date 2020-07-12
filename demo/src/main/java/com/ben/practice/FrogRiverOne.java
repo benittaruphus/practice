@@ -3,56 +3,60 @@ package com.ben.practice;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class FrogRiverOne {
 	public static void main(String[] args)
 	{
 		Solution s = new Solution();
-		int[] A = {1, 3, 1, 2, 1};
-		int missing = s.solution(1, A);
+		int[] A = {1, 3, 1, 4, 2, 3, 5, 4};
+		int missing = s.solution(5, A);
 		System.out.println(missing) ;
 	}
 }
 
 class Solution {
     public int solution(int X, int[] A) {
-    	
     	int l = A.length;
         if(l<X)
         {
             return -1;
         }
-//        if(X==1 && A[0]==1)
-//       
-//            return 0;
-//        }
-        if(sum(X) == sum(l))
+
+        //List<Integer> leaves = new ArrayList<>(l);
+        Map<Integer, Integer> leaves = new HashMap<>();
+        for(int i=0; i<l; i++)
         {
-            return X;
-        }
-        List<Integer> leaves = new ArrayList<>();
-        //int[] leaves = new int[X+1];
-        for(int i:A)
-        {
-        	if(i<=X)
+        	int a= A[i];
+        	if(a<=X)
         	{
-        		//leaves[i]=leaves[i]+1;
-        		leaves.add(i, (leaves.get(i))+1);
+        		if(leaves.get(a)==null)
+        		{
+        			leaves.put(a, i);
+        		}
+        		
         	}
         }
-        int fastest = 0;
         
+        
+        List<Integer> indices = new ArrayList<>();
         for(int i=1; i<=X; i++)
         {
         	
-        	if (leaves.get(i)==0)
+        	if (leaves.get(i)==null)
         	{
         		return -1;
         	}
+        	indices.add(leaves.get(i));
+        	
         }
+        Collections.sort(indices);
         
-        fastest = leaves.indexOf(o)
+        int fastest = indices.get(X-1);
+        //fastest = leaves.indexOf(0);
         
         return fastest;
     }
