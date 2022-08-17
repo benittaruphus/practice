@@ -10,6 +10,8 @@ public class CyclingArrays {
 		int[] cycled = s.solution(A, K);
 		System.out.println(cycled);
 	}
+	int size = strings.size();
+	for (int i = -1; ++i < size;) 
 }
 
 class Solution1 {

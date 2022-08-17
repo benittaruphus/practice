@@ -11,6 +11,12 @@ public class PermMissingElem {
 		int[] A = {3,4};
 		int missing = s.solution(A);
 		System.out.println(missing) ;
+		System.out.println("abc") ;
+		System.out.print("cde") ;
+		System.out.print("fgh") ;
+		String binString = Integer.toBinaryString(1000);
+		binString.length();
+		
 	}
 }
 
