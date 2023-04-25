@@ -3,7 +3,8 @@ package com.ben.practice;
 // Java program to print DFS
 // traversal from a given
 // graph
-import java.util.*;
+import java.util.Iterator;
+import java.util.LinkedList;
 
 // This class represents a directed graph using adjacency
 // list representation

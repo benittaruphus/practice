@@ -1,6 +1,7 @@
 package com.ben.practice;
 
-import java.util.*;
+import java.util.Set;
+import java.util.TreeSet;
 public class ThreeFiveMultiples {
 
 	Set<Integer> multiples(int m)
@@ -34,3 +35,4 @@ public class ThreeFiveMultiples {
 		
 	}
 }
+

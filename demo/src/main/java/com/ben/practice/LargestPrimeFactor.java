@@ -32,3 +32,4 @@ public class LargestPrimeFactor {
 		System.out.println(l.findLargestPrimeFactor(13L));
 	}
 }
+

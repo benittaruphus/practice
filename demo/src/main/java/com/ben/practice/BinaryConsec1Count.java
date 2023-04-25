@@ -1,8 +1,8 @@
 package com.ben.practice;
 
-import java.io.*;
-
-
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class BinaryConsec1Count {
     public static void main(String[] args) throws IOException {
@@ -65,4 +65,5 @@ public class BinaryConsec1Count {
     
    
 }
+
 

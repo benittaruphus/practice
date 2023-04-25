@@ -1,9 +1,5 @@
 package com.ben.practice;
 
-//Program to print all prime factors
-import java.io.*;
-import java.lang.Math;
-
 class GFG
 {
 	// A function to print all prime factors
@@ -41,4 +37,5 @@ class GFG
 		primeFactors(n);
 	}
 }
+
 
