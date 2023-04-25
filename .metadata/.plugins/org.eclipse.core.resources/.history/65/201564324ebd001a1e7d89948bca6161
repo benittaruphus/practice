@@ -1,0 +1,53 @@
+package com.ben.practice;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class TapeEquilibrium {
+	public static void main(String[] args)
+	{
+		Solution s = new Solution();
+		int[] A = {3, 1, 2, 4, 3};
+		int missing = s.solution(A);
+		System.out.println(missing) ;
+	}
+}
+
+class Solution {
+    public int solution(int[] A) {
+    
+    	int aL = A.length;
+        int smallest = 0;
+        
+        if(aL==0)
+        {
+            return 0;
+        }
+        
+        if(aL==1)
+        {
+            return A[0];
+        }
+        int dL = aL-1;
+        int[] firstHalf = new int[dL];
+        int[] secondHalf = new int[dL];
+        firstHalf[0] = A[0];
+        secondHalf[dL-1] = A[aL-1];
+        
+        for(int i = 1, j = dL-2; i<aL-1 && j>0; i++, j--)
+        {
+        	firstHalf[i] = firstHalf[i-1] + A[i];
+        	secondHalf[j] = secondHalf[j+1] + A[j+1];
+        	
+        	
+        }
+        
+        for (int i = 0; i<aL-2; i++)
+        {
+        	System.out.println(firstHalf[i] + " " + secondHalf[i]);
+        }
+        
+        return smallest;
+    }
+}
+

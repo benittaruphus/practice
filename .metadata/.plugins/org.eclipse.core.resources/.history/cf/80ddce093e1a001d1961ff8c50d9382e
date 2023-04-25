@@ -1,0 +1,15 @@
+package com.ben.practice;
+
+import java.util.*;
+public class ThreeFiveMultiples {
+
+	List multiples(int m)
+	{
+		List multiples = new ArrayList<>();
+	}
+	
+	public static void main (String [] args)
+	{
+		
+	}
+}

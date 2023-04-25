@@ -1,0 +1,18 @@
+package com.ben.practice;
+
+public class FrogRiverOne {
+	public static void main(String[] args)
+	{
+		Solution s = new Solution();
+		int[] A = {3, 1};
+		int missing = s.solution(A);
+		System.out.println(missing) ;
+	}
+}
+
+class Solution {
+    public int solution(int[] A) {
+    	
+    	
+    }
+}

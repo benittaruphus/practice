@@ -1,0 +1,32 @@
+package com.ben.practice;
+
+import java.util.*;
+public class ThreeFiveMultiples {
+
+	Set multiples(int m)
+	{
+		Set multiples = new HashSet<>();
+		
+		for(int i=3, j=5; i<=m&&j<=m; i=i+3, j=j+5)
+		{
+			multiples.add(i);
+			multiples.add(j);
+		}
+		return multiples;
+	}
+	
+	int sum(int m)
+	{
+		Set<Integer> multiples = multiples(m);
+		int sum=0;
+		for(int i:multiples)
+		{
+			
+		}
+	}
+	
+	public static void main (String [] args)
+	{
+		
+	}
+}

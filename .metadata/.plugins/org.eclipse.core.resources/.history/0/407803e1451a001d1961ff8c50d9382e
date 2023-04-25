@@ -1,0 +1,33 @@
+package com.ben.practice;
+
+public class EvenFibonacciSum {
+	
+	
+	int sumOfEvenFibonacciUpto(int f)
+	{
+		
+		int i=1;
+		int j=2;
+		int sum = i;
+		
+		while(j<=f)
+		{
+			sum=sum+j;
+			int temp = i+j;
+			i=j;
+			j=temp;
+		}
+		return sum;
+		
+	}
+	
+	public static void main(String[] arg)
+	{
+		EvenFibonacciSum e = new EvenFibonacciSum();
+		System.out.println(e.sumOfEvenFibonacciUpto(4000000));
+		
+	}
+
+	
+
+}

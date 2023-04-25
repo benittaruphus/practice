@@ -1,0 +1,11 @@
+package com.ben.practice;
+
+public class LargestPrimeFactor {
+
+	
+	
+	public static void main (String[] arg)
+	{
+		LargestPrimeFactor l = new LargestPrimeFactor();
+	}
+}

@@ -1,0 +1,24 @@
+package com.ben.practice;
+
+public class EvenFibonacciSum {
+	
+	
+	int sumOfEvenFibonacciUpto(int f)
+	{
+		int sum = 0;
+		int i=1;
+		int j=2;
+		
+		
+	}
+	
+	public static void main(String[] arg)
+	{
+		EvenFibonacciSum e = new EvenFibonacciSum();
+		e.sumOfEvenFibonacciUpto(4000000);
+		
+	}
+
+	
+
+}

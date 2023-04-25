@@ -1,0 +1,20 @@
+package com.ben.practice;
+
+public class LargestPalindrome {
+	
+	int findPalindrome(int a, int b)
+	{
+		int p=0;
+		
+		
+		return p;
+	}
+	
+	public static void main(String[] arg)
+	{
+		LargestPalindrome l = new LargestPalindrome();
+		int p=l.findPalindrome(999, 999);
+		System.out.println(p);
+	}
+
+}

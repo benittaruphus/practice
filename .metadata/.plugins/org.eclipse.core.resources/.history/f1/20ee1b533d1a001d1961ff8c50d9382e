@@ -1,0 +1,14 @@
+package com.ben.practice;
+
+public class ThreeFiveMultiples {
+
+	ArrayList<int> multiples(int m)
+	{
+		ArrayList<int> multiples = new int[];
+	}
+	
+	public static void main (String [] args)
+	{
+		
+	}
+}

@@ -1,0 +1,29 @@
+package com.ben.practice;
+
+public class recursion {
+
+	public static void main(String[] args)
+	{
+		recursion r = new recursion();
+		System.out.println(r.func(5)) ;
+		
+	
+	}
+	int func(int n)
+	{
+		int r=0;
+//		if (n==1)
+//			return 1;
+//			//r = func(n-1);
+//			//return r;
+			try
+			{
+				r=5;
+				return r;
+			}
+			finally
+			{
+				r=6;
+			}
+	}
+}

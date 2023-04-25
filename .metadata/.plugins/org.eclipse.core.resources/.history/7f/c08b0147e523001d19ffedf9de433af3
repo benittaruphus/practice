@@ -1,0 +1,20 @@
+package com.ben.practice;
+
+public class SqrRootOfN {
+
+	int findSqrRoot(int n)
+	{
+		int sqrRoor = 0;
+		
+		
+		return sqrRoot;
+	}
+	
+	public static void main(String[] args)
+	{
+		SqrRoot s = new SqrRoot();
+		
+		System.out.println(s.findSqrRoot(4));
+		
+	}
+}
