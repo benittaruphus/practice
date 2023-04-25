@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;array&apos; in &apos;com.ben.practice.BubbleSort.sort(...)&apos; to &apos;arr&apos;&#x0D;&#x0A;- Original project: &apos;demo&apos;&#x0D;&#x0A;- Original element: &apos;com.ben.practice.BubbleSort.sort(int[]).array&apos;&#x0D;&#x0A;- Renamed element: &apos;array&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;array&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ben.practice{BubbleSort.java[BubbleSort~sort~\[I@array!77!87!83!87!\[I!0!true" name="arr" references="true" stamp="1681286828823" version="1.0"/>
-</session>

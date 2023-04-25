@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;shop-api&apos; to &apos;benigma-api&apos;" description="Rename resource &apos;shop-api&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/shop-api" name="benigma-api" stamp="1601576437793" updateReferences="true"/>
-</session>
